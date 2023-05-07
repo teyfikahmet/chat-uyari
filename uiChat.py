@@ -2,10 +2,11 @@
 def OnIMEUpdate(self):
 // Üstüne Ekle
 def CheckPlaceholder(self):
-		if len(self.GetText()) > 0:
-			self.placeholderTextLine.Hide()
-		else:
-			self.placeholderTextLine.Show()
+	if len(self.GetText()) > 0:
+		self.placeholderTextLine.Hide()
+	else:
+		self.placeholderTextLine.Show()
+		
 // Arat def __init__(self) içinde
 self.overTextLine = ui.TextLine()
 self.overTextLine.SetParent(self)
