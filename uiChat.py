@@ -26,4 +26,4 @@ self.placeholderTextLine.SetText("  Görünecek yazi.")
 def OnRender(self):
 // Altına Ekle
 def OnUpdate(self):
-		self.chatLine.CheckPlaceholder()
+	self.chatLine.CheckPlaceholder()
